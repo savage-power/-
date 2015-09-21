@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCC83FC41B71DFF60035F2FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC83FC31B71DFF60035F2FE /* main.m */; };
+		BCC83FC71B71DFF60035F2FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC83FC61B71DFF60035F2FE /* AppDelegate.m */; };
+		BCC83FC91B71DFF60035F2FE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCC83FC81B71DFF60035F2FE /* Images.xcassets */; };
+		BCC83FCC1B71DFF60035F2FE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCC83FCA1B71DFF60035F2FE /* LaunchScreen.xib */; };
+		BCC83FD81B71DFF60035F2FE /* UISwipeGestureDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC83FD71B71DFF60035F2FE /* UISwipeGestureDemoTests.m */; };
+		BCC83FE91B71E00E0035F2FE /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC83FE31B71E00E0035F2FE /* BaseViewController.m */; };
+		BCC83FEA1B71E00E0035F2FE /* Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC83FE51B71E00E0035F2FE /* Factory.m */; };
+		BCC83FEB1B71E00E0035F2FE /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC83FE81B71E00E0035F2FE /* UIView+Addition.m */; };
+		BCC83FEE1B71E0260035F2FE /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC83FED1B71E0260035F2FE /* RootViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCC83FD21B71DFF60035F2FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCC83FB61B71DFF60035F2FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCC83FBD1B71DFF60035F2FE;
+			remoteInfo = UISwipeGestureDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCC83FBE1B71DFF60035F2FE /* UISwipeGestureDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UISwipeGestureDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCC83FC21B71DFF60035F2FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCC83FC31B71DFF60035F2FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCC83FC51B71DFF60035F2FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BCC83FC61B71DFF60035F2FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BCC83FC81B71DFF60035F2FE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BCC83FCB1B71DFF60035F2FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BCC83FD11B71DFF60035F2FE /* UISwipeGestureDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UISwipeGestureDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCC83FD61B71DFF60035F2FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCC83FD71B71DFF60035F2FE /* UISwipeGestureDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UISwipeGestureDemoTests.m; sourceTree = "<group>"; };
+		BCC83FE21B71E00E0035F2FE /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		BCC83FE31B71E00E0035F2FE /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		BCC83FE41B71E00E0035F2FE /* Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Factory.h; sourceTree = "<group>"; };
+		BCC83FE51B71E00E0035F2FE /* Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Factory.m; sourceTree = "<group>"; };
+		BCC83FE61B71E00E0035F2FE /* Myhelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Myhelper.h; sourceTree = "<group>"; };
+		BCC83FE71B71E00E0035F2FE /* UIView+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Addition.h"; sourceTree = "<group>"; };
+		BCC83FE81B71E00E0035F2FE /* UIView+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Addition.m"; sourceTree = "<group>"; };
+		BCC83FEC1B71E0260035F2FE /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		BCC83FED1B71E0260035F2FE /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCC83FBB1B71DFF60035F2FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCC83FCE1B71DFF60035F2FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCC83FB51B71DFF60035F2FE = {
+			isa = PBXGroup;
+			children = (
+				BCC83FC01B71DFF60035F2FE /* UISwipeGestureDemo */,
+				BCC83FD41B71DFF60035F2FE /* UISwipeGestureDemoTests */,
+				BCC83FBF1B71DFF60035F2FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCC83FBF1B71DFF60035F2FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCC83FBE1B71DFF60035F2FE /* UISwipeGestureDemo.app */,
+				BCC83FD11B71DFF60035F2FE /* UISwipeGestureDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCC83FC01B71DFF60035F2FE /* UISwipeGestureDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BCC83FC51B71DFF60035F2FE /* AppDelegate.h */,
+				BCC83FC61B71DFF60035F2FE /* AppDelegate.m */,
+				BCC83FEC1B71E0260035F2FE /* RootViewController.h */,
+				BCC83FED1B71E0260035F2FE /* RootViewController.m */,
+				BCC83FE11B71E00E0035F2FE /* Helper */,
+				BCC83FC81B71DFF60035F2FE /* Images.xcassets */,
+				BCC83FCA1B71DFF60035F2FE /* LaunchScreen.xib */,
+				BCC83FC11B71DFF60035F2FE /* Supporting Files */,
+			);
+			path = UISwipeGestureDemo;
+			sourceTree = "<group>";
+		};
+		BCC83FC11B71DFF60035F2FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCC83FC21B71DFF60035F2FE /* Info.plist */,
+				BCC83FC31B71DFF60035F2FE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCC83FD41B71DFF60035F2FE /* UISwipeGestureDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCC83FD71B71DFF60035F2FE /* UISwipeGestureDemoTests.m */,
+				BCC83FD51B71DFF60035F2FE /* Supporting Files */,
+			);
+			path = UISwipeGestureDemoTests;
+			sourceTree = "<group>";
+		};
+		BCC83FD51B71DFF60035F2FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCC83FD61B71DFF60035F2FE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCC83FE11B71E00E0035F2FE /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				BCC83FE21B71E00E0035F2FE /* BaseViewController.h */,
+				BCC83FE31B71E00E0035F2FE /* BaseViewController.m */,
+				BCC83FE41B71E00E0035F2FE /* Factory.h */,
+				BCC83FE51B71E00E0035F2FE /* Factory.m */,
+				BCC83FE61B71E00E0035F2FE /* Myhelper.h */,
+				BCC83FE71B71E00E0035F2FE /* UIView+Addition.h */,
+				BCC83FE81B71E00E0035F2FE /* UIView+Addition.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCC83FBD1B71DFF60035F2FE /* UISwipeGestureDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCC83FDB1B71DFF60035F2FE /* Build configuration list for PBXNativeTarget "UISwipeGestureDemo" */;
+			buildPhases = (
+				BCC83FBA1B71DFF60035F2FE /* Sources */,
+				BCC83FBB1B71DFF60035F2FE /* Frameworks */,
+				BCC83FBC1B71DFF60035F2FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UISwipeGestureDemo;
+			productName = UISwipeGestureDemo;
+			productReference = BCC83FBE1B71DFF60035F2FE /* UISwipeGestureDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCC83FD01B71DFF60035F2FE /* UISwipeGestureDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCC83FDE1B71DFF60035F2FE /* Build configuration list for PBXNativeTarget "UISwipeGestureDemoTests" */;
+			buildPhases = (
+				BCC83FCD1B71DFF60035F2FE /* Sources */,
+				BCC83FCE1B71DFF60035F2FE /* Frameworks */,
+				BCC83FCF1B71DFF60035F2FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCC83FD31B71DFF60035F2FE /* PBXTargetDependency */,
+			);
+			name = UISwipeGestureDemoTests;
+			productName = UISwipeGestureDemoTests;
+			productReference = BCC83FD11B71DFF60035F2FE /* UISwipeGestureDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCC83FB61B71DFF60035F2FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "刘强";
+				TargetAttributes = {
+					BCC83FBD1B71DFF60035F2FE = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					BCC83FD01B71DFF60035F2FE = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = BCC83FBD1B71DFF60035F2FE;
+					};
+				};
+			};
+			buildConfigurationList = BCC83FB91B71DFF60035F2FE /* Build configuration list for PBXProject "UISwipeGestureDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCC83FB51B71DFF60035F2FE;
+			productRefGroup = BCC83FBF1B71DFF60035F2FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCC83FBD1B71DFF60035F2FE /* UISwipeGestureDemo */,
+				BCC83FD01B71DFF60035F2FE /* UISwipeGestureDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCC83FBC1B71DFF60035F2FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC83FCC1B71DFF60035F2FE /* LaunchScreen.xib in Resources */,
+				BCC83FC91B71DFF60035F2FE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCC83FCF1B71DFF60035F2FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCC83FBA1B71DFF60035F2FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC83FEA1B71E00E0035F2FE /* Factory.m in Sources */,
+				BCC83FEB1B71E00E0035F2FE /* UIView+Addition.m in Sources */,
+				BCC83FEE1B71E0260035F2FE /* RootViewController.m in Sources */,
+				BCC83FC71B71DFF60035F2FE /* AppDelegate.m in Sources */,
+				BCC83FE91B71E00E0035F2FE /* BaseViewController.m in Sources */,
+				BCC83FC41B71DFF60035F2FE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCC83FCD1B71DFF60035F2FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC83FD81B71DFF60035F2FE /* UISwipeGestureDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCC83FD31B71DFF60035F2FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCC83FBD1B71DFF60035F2FE /* UISwipeGestureDemo */;
+			targetProxy = BCC83FD21B71DFF60035F2FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCC83FCA1B71DFF60035F2FE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCC83FCB1B71DFF60035F2FE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCC83FD91B71DFF60035F2FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BCC83FDA1B71DFF60035F2FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCC83FDC1B71DFF60035F2FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = UISwipeGestureDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCC83FDD1B71DFF60035F2FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = UISwipeGestureDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BCC83FDF1B71DFF60035F2FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UISwipeGestureDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UISwipeGestureDemo.app/UISwipeGestureDemo";
+			};
+			name = Debug;
+		};
+		BCC83FE01B71DFF60035F2FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UISwipeGestureDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UISwipeGestureDemo.app/UISwipeGestureDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCC83FB91B71DFF60035F2FE /* Build configuration list for PBXProject "UISwipeGestureDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCC83FD91B71DFF60035F2FE /* Debug */,
+				BCC83FDA1B71DFF60035F2FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCC83FDB1B71DFF60035F2FE /* Build configuration list for PBXNativeTarget "UISwipeGestureDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCC83FDC1B71DFF60035F2FE /* Debug */,
+				BCC83FDD1B71DFF60035F2FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCC83FDE1B71DFF60035F2FE /* Build configuration list for PBXNativeTarget "UISwipeGestureDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCC83FDF1B71DFF60035F2FE /* Debug */,
+				BCC83FE01B71DFF60035F2FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCC83FB61B71DFF60035F2FE /* Project object */;
+}
